@@ -32,7 +32,9 @@ public class algoritmo {
 
         suma = n1 + n2;
         resta = n1 - n2;
+        
         producto = n1 * n2;
+
         division = n1 / n2;
 
         System.out.println("El resultado de la suma es: " + suma + "\nEl resultado de la resta: " + resta + "\nEl resultado del producto es: " + producto);
@@ -83,7 +85,9 @@ public class algoritmo {
 //      volumen = Math.pow(lado, 3);
         volumen = lado * lado * lado;
 
-        System.out.println("El volumen del cubo es: " + volumen);
+        //System.out.println("El volumen del cubo es: " + volumen);
+
+
 
 
     }
