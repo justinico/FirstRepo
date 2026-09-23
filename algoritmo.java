@@ -27,12 +27,15 @@ public class algoritmo {
 
         System.out.print("Digite el primer numeros: ");
         n1 = entrada.nextInt();
+
+
         System.out.print("Digite el segundo numero: ");
         n2 = entrada.nextInt();
 
         suma = n1 + n2;
+
         resta = n1 - n2;
-        
+
         producto = n1 * n2;
 
         division = n1 / n2;
@@ -61,6 +64,7 @@ public class algoritmo {
         double cuotaMensual = precioCredito / meses;
 
         System.out.println("El valor total a crédito es: " + precioCredito);
+        
         System.out.println("El valor fijo de su cuota mensual es: " + cuotaMensual);
 
 //        Cree un programa que tome la base y la altura de un triángulo e imprima su área.
